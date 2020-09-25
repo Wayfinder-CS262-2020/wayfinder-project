@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import Header from "./components/header";
 import Content from "./components/content";
-import loginScreen from "./components/loginScreen";
+import LoginScreen from "./components/loginScreen";
 
 export default function App() {
   return (
@@ -18,10 +18,10 @@ export default function App() {
       }}
     >
       <View style={styles.container}>
-        <Header />
+        {/* <Header /> */}
         <View style={styles.content}>
           {/* <Content/> */}
-          <loginScreen />
+          <LoginScreen />
         </View>
       </View>
     </TouchableWithoutFeedback>
@@ -31,6 +31,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#333",
+    backgroundColor: "#2D2D2D",
   },
 });
