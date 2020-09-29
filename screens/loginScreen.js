@@ -1,4 +1,5 @@
 import { capitalize, Input } from "@material-ui/core";
+import { Navigation } from "@material-ui/icons";
 import React from "react";
 import {
   StyleSheet,
@@ -13,7 +14,7 @@ import { TouchableHighlight } from "react-native-gesture-handler";
 
 <link rel="stylesheet" href="https://use.typekit.net/spw7ajb.css"></link>;
 
-export default function LoginScreen() {
+export default function LoginScreen({ navigation }) {
   return (
     /* Background */
     <View style={styles.container}>
@@ -43,7 +44,7 @@ export default function LoginScreen() {
 
       {/* Login Button */}
       <View styles={styles.loginview}>
-        <TouchableOpacity style={styles.loginbutton}>
+        <TouchableOpacity style={styles.loginbutton} onPress={() => navigation.navigate('Map')}>
           <Text styles={styles.logintext}>LOGIN</Text>
         </TouchableOpacity>
       </View>
