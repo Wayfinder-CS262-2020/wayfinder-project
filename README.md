@@ -6,6 +6,13 @@ Many students, especially freshmen, suffer from getting lost on campus or inside
 
 Wayfinder will be a mobile application capable of running on most devices, making it easily accessible to students. Guests and parents will also be free to use the app, although for security reasons the features of the app will be limited, requiring a student login to access the full functionality. These limited features will offer outdoor guidance, including guidance to buildings or outdoor events, but will not offer indoor coverage. To guide you to a classroom, the app will require only the name of the building and the number of the classroom, promptly displaying a route once that information is provided. For outdoor areas, you only need to input the name of the gathering point, e.g. "Commons Lawn". The guiding itself will take place on an interactive map within the application, with lines and arrows drawn on the map to lead you wherever you need to go.
 
+## Design
+- [UI Mockup](https://xd.adobe.com/view/7bc33ff7-d69b-4c55-afeb-05b27cf3a5b4-2e90/grid?hints=off)
+- [UML Class Diagram](https://github.com/Wayfinder-CS262-2020/wayfinder-project/blob/master/Domain%20Model.png)
+
+## Code
+The [wayfinder-client](https://github.com/Wayfinder-CS262-2020/wayfinder-client) repo contains an up-to-date working demo of Wayfinder.
+
 ## Team Members
 * Ha-Ram Koo
 * Duncan VanKeulen
@@ -13,3 +20,6 @@ Wayfinder will be a mobile application capable of running on most devices, makin
 * Alex Johnson
 * Josh Ridder
 * Hyechan Jun
+
+If you want to stay intimately up do date with the team and our management for whatever creepy or legit reason - or if you are a stakeholder - here is a link to our [Trello](https://trello.com/b/C6MfzMPY/cs262-e-wayfinder)
+
