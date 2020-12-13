@@ -13,6 +13,10 @@ Wayfinder will be a mobile application capable of running on most devices, makin
 ## Code
 The [wayfinder-client](https://github.com/Wayfinder-CS262-2020/wayfinder-client) repo contains an up-to-date working demo of Wayfinder.
 
+## Presentations
+- [Presentation 1](https://docs.google.com/presentation/d/1sQdyGjtYNZlGVTIYnGCgB_A7mfkKOvqktU8NrvkE5Dc/edit?usp=sharing)
+- [Presentation 2](https://docs.google.com/presentation/d/1OBWdT3O2atzMmSxZai2WDqPolVW_X6dbbkY-qiKjrqE/edit?usp=sharing)
+
 ## Team Members
 * Ha-Ram Koo
 * Duncan VanKeulen
